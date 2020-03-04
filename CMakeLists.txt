@@ -149,6 +149,7 @@ include_directories(
 install(PROGRAMS
   nodes/tello_driver_node
   nodes/gamepad_teleop_node
+  nodes/keyboard_and_video
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
